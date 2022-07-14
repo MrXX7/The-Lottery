@@ -11,6 +11,7 @@
 		ADC501962880DA8000831463 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC501952880DA8000831463 /* ContentView.swift */; };
 		ADC501982880DA8100831463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC501972880DA8100831463 /* Assets.xcassets */; };
 		ADC5019B2880DA8100831463 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC5019A2880DA8100831463 /* Preview Assets.xcassets */; };
+		ADC501A32880DB7900831463 /* RollingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC501A22880DB7900831463 /* RollingText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ADC501952880DA8000831463 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADC501972880DA8100831463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC5019A2880DA8100831463 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADC501A22880DB7900831463 /* RollingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		ADC501922880DA8000831463 /* The Lottery */ = {
 			isa = PBXGroup;
 			children = (
+				ADC501A12880DB5400831463 /* View */,
 				ADC501932880DA8000831463 /* The_LotteryApp.swift */,
 				ADC501952880DA8000831463 /* ContentView.swift */,
 				ADC501972880DA8100831463 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				ADC5019A2880DA8100831463 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADC501A12880DB5400831463 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADC501A22880DB7900831463 /* RollingText.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				ADC501962880DA8000831463 /* ContentView.swift in Sources */,
 				ADC501942880DA8000831463 /* The_LotteryApp.swift in Sources */,
+				ADC501A32880DB7900831463 /* RollingText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
