@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var value: Int = 111
     var body: some View {
         NavigationView {
             VStack {
-                
+                RollingText(font: .font(.system(size: 55)), weight: .black, value: $value)
             }
             .padding()
             navigationTitle("The Lottery")
